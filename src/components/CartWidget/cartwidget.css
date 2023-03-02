@@ -1,0 +1,8 @@
+.cartWidget {
+    display: flex;
+    align-items: center;
+}
+
+.cartWidget > img {
+    width: 24px;
+}
