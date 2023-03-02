@@ -13,3 +13,9 @@
     align-items: center;
     gap: 1rem;
 }
+
+.navbar > ul > li {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
