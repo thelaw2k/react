@@ -1,7 +1,7 @@
 import "./navbar.css";
 import CartWidget from "../CartWidget";
 
-function NavBar(){
+function NavBar({changeValue}){
     return (
     <div className="navbar">
         <span>WfxGroup</span>
@@ -10,6 +10,7 @@ function NavBar(){
             <li><a href="#">Servicios</a></li>
             <li><a href="#">Portfolio</a></li>
             <li><a href="#">Contacto</a></li>
+            <li><button onClick={changeValue}>Cambiar estado</button></li>
             <CartWidget />
         </ul>
     </div>

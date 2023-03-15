@@ -1,7 +1,7 @@
-import "./itemlistcontainer.css"
+//import "./Itemlistcontainer.css"
 
-function itemListContainer({greeting}) {
+function ItemListContainer({greeting}) {
     return <div>{greeting}</div>;
 }
 
-export default itemListContainer;
+export default ItemListContainer;
