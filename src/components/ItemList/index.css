@@ -1,0 +1,28 @@
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .flex-container > div {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border: 1px;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  .textoybotones {
+    background-color: rgb(214, 215, 216);
+    padding: 10px 10px;
+
+  }
+
+  .textoybotones > button {
+    background-color: blue;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+  }

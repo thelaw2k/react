@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Products from "../../mocks/products";
 import ItemList from "../ItemList";
 
-function ItemListContainer({greeting}) {
+function ItemListContainer({ categoryId, isCategoryRoute }) {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
@@ -11,7 +11,11 @@ function ItemListContainer({greeting}) {
         );
 
         productsPromise
-        .then((response) => setProducts(response))
+        .then((response) => {
+            //setProducts(response)
+            console.log({response});
+
+        )}
         .catch((err) => console.log(err));
     }, []);
 

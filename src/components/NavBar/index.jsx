@@ -7,14 +7,14 @@ function NavBar({changeValue}){
         <span>WfxGroup</span>
         <ul>
             <li><a href="#">Inicio</a></li>
-            <li><a href="#">Servicios</a></li>
-            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Ofertas</a></li>
             <li><a href="#">Contacto</a></li>
             <li><button onClick={changeValue}>Cambiar estado</button></li>
             <CartWidget />
         </ul>
     </div>
-    );
+    );s
 }
 
 export default NavBar;

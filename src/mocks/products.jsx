@@ -1,30 +1,34 @@
 export default [
     {
         id: 1,
-        name: "Producto 1",
-        descripcion: "Descripcion producto 1",
+        name: "Fis P 300 T",
+        descripcion: "Taco Quimico Poliester",
         stock: 10,
-        image: "../../assets/imagen4.jpg"
+        image: "/src/assets/1.jpg",
+        category: "Quimicos"
     },
     {
         id: 2,
-        name: "Producto 2",
-        descripcion: "Descripcion producto 2",
+        name: "fis V 300 T",
+        descripcion: "Taco Quimico Vinilester",
         stock: 40,
-        image: "../../assets/imagen4.jpg"
+        image: "/src/assets/2.jpg",
+        category: "Quimicos"
     },
     {
         id: 3,
-        name: "Producto 3",
-        descripcion: "Descripcion producto 3",
+        name: "Sellador MS Cristal",
+        descripcion: "Sellador Hibrido MS",
         stock: 25,
-        image: "../../assets/imagen4.jpg"
+        image: "/src/assets/3.jpg",
+        category: "Selladores"
     },
     {
         id: 4,
-        name: "Producto 4",
-        descripcion: "Descripcion producto 4",
+        name: "PUP 750",
+        descripcion: "Espuma de poliuretano",
         stock: 5,
-        image: "../../assets/imagen4.jpg"
+        image: "/src/assets/4.jpg",
+        category: "Selladores"
     },
 ]
