@@ -8,7 +8,6 @@ import './index.css'
 import Root from "./routes/root";
 import ItemRoot from './routes/item';
 
-
 const router = createBrowserRouter([
   {
     path: "/",

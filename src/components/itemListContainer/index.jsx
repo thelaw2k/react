@@ -8,20 +8,24 @@ function ItemListContainer({ categoryId, isCategoryRoute }) {
     useEffect(() => {
         const productsPromise = new Promise((resolve, reject) =>
             setTimeout(() => resolve(Products), 2000)
+            //resolve(Products)
         );
 
         productsPromise
-        .then((response) => {
-            //setProducts(response)
-            console.log({response});
-
-        )}
+            .then((response) => {
+                if (isCategoryRoute) {
+                    const productsFiltered = response.filter(
+                        (product) => product.category === categoryId
+                    );
+                    setProducts(productsFiltered);
+                } else {
+                    setProducts(response);
+                }
+            })
         .catch((err) => console.log(err));
-    }, []);
+    }, [categoryId]);
 
     return (
-        //<div>{greeting}</div>
-
         <div>
             <ItemList products={products} />
         </div>

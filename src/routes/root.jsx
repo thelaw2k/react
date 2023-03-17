@@ -8,14 +8,12 @@ function Root() {
   const isCategoryRoute = Boolean(params.id);
 
   console.log(params);
-  console.log(isCategoryRoute);
-
   return (
     <div>
-      <NavBar/>
+      <NavBar />
       <ItemListContainer
         isCategoryRoute={isCategoryRoute}
-        categoryId = {params.id}  
+        categoryId = {params.id}
       />
     </div>
   );

@@ -5,7 +5,7 @@ export default [
         descripcion: "Taco Quimico Poliester",
         stock: 10,
         image: "/src/assets/1.jpg",
-        category: "Quimicos"
+        category: "quimicos"
     },
     {
         id: 2,
@@ -13,7 +13,7 @@ export default [
         descripcion: "Taco Quimico Vinilester",
         stock: 40,
         image: "/src/assets/2.jpg",
-        category: "Quimicos"
+        category: "quimicos"
     },
     {
         id: 3,
@@ -21,7 +21,7 @@ export default [
         descripcion: "Sellador Hibrido MS",
         stock: 25,
         image: "/src/assets/3.jpg",
-        category: "Selladores"
+        category: "quimicos"
     },
     {
         id: 4,
@@ -29,6 +29,22 @@ export default [
         descripcion: "Espuma de poliuretano",
         stock: 5,
         image: "/src/assets/4.jpg",
-        category: "Selladores"
+        category: "selladores"
+    },
+    {
+        id: 5,
+        name: "PUP 750",
+        descripcion: "Espuma de poliuretano",
+        stock: 5,
+        image: "/src/assets/4.jpg",
+        category: "selladores"
+    },
+    {
+        id: 6,
+        name: "PUP 750",
+        descripcion: "Espuma de poliuretano",
+        stock: 5,
+        image: "/src/assets/4.jpg",
+        category: "selladores"
     },
 ]

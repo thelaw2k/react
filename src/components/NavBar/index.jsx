@@ -1,16 +1,14 @@
 import "./navbar.css";
 import CartWidget from "../CartWidget";
+import { NavLink } from "react-router-dom";
 
 function NavBar({changeValue}){
     return (
     <div className="navbar">
-        <span>WfxGroup</span>
+        <span><NavLink to="/">Logo</NavLink></span>
         <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Productos</a></li>
-            <li><a href="#">Ofertas</a></li>
-            <li><a href="#">Contacto</a></li>
-            <li><button onClick={changeValue}>Cambiar estado</button></li>
+            <li><NavLink to="/category/quimicos">Quimicos</NavLink></li>
+            <li><NavLink to="/category/selladores">Selladores</NavLink></li>
             <CartWidget />
         </ul>
     </div>
